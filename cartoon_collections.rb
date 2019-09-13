@@ -22,5 +22,5 @@ def find_the_cheese(array)
   cheese_types.each do |cheese|
     found_cheese << array.find(cheese)
   end
-  found_cheese.first
+  found_cheese[0]
 end
