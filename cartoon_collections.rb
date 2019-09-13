@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)
   array.map do |call|
-    if call.length < 4
+    if array.all?(call.length < 4)
       false
     else
       true
